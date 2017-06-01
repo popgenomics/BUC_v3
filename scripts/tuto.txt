@@ -1,0 +1,79 @@
+# consensus
+# cds
+cd /home/croux/Documents/BUC_v3/popphyl_contam0.2/cds
+for i in $(ls); do
+	echo $i
+	cd /home/croux/Documents/BUC_v3/popphyl_contam0.2/cds/${i}
+	/home/croux/Documents/BUC_v3/scripts/2_consensus.py ${i}.cds.alr.0.2.fas
+done
+
+# utr
+cd /home/croux/Documents/BUC_v3/popphyl_contam0.2/utr
+for i in $(ls); do
+	echo $i
+	cd /home/croux/Documents/BUC_v3/popphyl_contam0.2/utr/${i}
+	/home/croux/Documents/BUC_v3/scripts/2_consensus_utr.py ${i}.utr.fas
+done
+
+# clean consensus
+# cds
+cd /home/croux/Documents/BUC_v3/popphyl_contam0.2/cds
+for i in $(ls); do
+	echo $i
+	cd /home/croux/Documents/BUC_v3/popphyl_contam0.2/cds/${i}
+	/home/croux/Documents/BUC_v3/scripts/3_clean_consensus.py consensus.fas 
+done
+
+# utr
+cd /home/croux/Documents/BUC_v3/popphyl_contam0.2/utr
+for i in $(ls); do
+	echo $i
+	cd /home/croux/Documents/BUC_v3/popphyl_contam0.2/utr/${i}
+	/home/croux/Documents/BUC_v3/scripts/3_clean_consensus_utr.py consensus.fas 
+done
+
+# compute ENCp
+# cds
+cd /home/croux/Documents/BUC_v3/popphyl_contam0.2/utr
+for i in $(ls); do
+	echo $i
+	cd /home/croux/Documents/BUC_v3/popphyl_contam0.2/utr/${i}
+	/home/croux/Documents/BUC_v3/scripts/4_ENCp_JohnNovembre.py /home/croux/Documents/BUC_v3/popphyl_contam0.2/cds/${i}/cleaned_consensus.fas /home/croux/Documents/BUC_v3/popphyl_contam0.2/utr/${i}/cleaned_consensus.fas
+done
+
+# utr
+cd /home/croux/Documents/BUC_v3/popphyl_contam0.2/utr
+for i in $(ls); do
+	echo $i
+	cd /home/croux/Documents/BUC_v3/popphyl_contam0.2/utr/${i}
+	/home/croux/Documents/BUC_v3/scripts/4_ENCp_JohnNovembre_utr.py /home/croux/Documents/BUC_v3/popphyl_contam0.2/cds/${i}/cleaned_consensus.fas /home/croux/Documents/BUC_v3/popphyl_contam0.2/utr/${i}/cleaned_consensus.fas
+done
+
+# output_v1 with R 
+cd /home/croux/Documents/BUC_v3/popphyl_contam0.2/utr
+for i in $(ls); do
+	echo $i
+	cd /home/croux/Documents/BUC_v3/popphyl_contam0.2/utr/${i}
+	/home/croux/Documents/BUC_v3/scripts/5_summary_utr.R species=${i} 
+done
+
+# output_v3 by python
+cd /home/croux/Documents/BUC_v3/popphyl_contam0.2/utr
+for i in $(ls); do
+	echo $i
+	cd /home/croux/Documents/BUC_v3/popphyl_contam0.2/utr/${i}
+	/home/croux/Documents/BUC_v3/scripts/6_compil_results.py ${i} 
+done
+
+
+# UTR_5 + CDS + UTR_3 for Laurent Duret
+cd /home/croux/Documents/BUC_v3/popphyl_contam0.2/utr
+for i in $(ls); do
+	echo $i
+	mkdir /home/croux/Documents/BUC_v3/concat/${i}
+	cd /home/croux/Documents/BUC_v3/concat/${i}
+	/home/croux/Documents/BUC_v3/scripts/7_concat_UTR_CDS.py ${i} /home/croux/Documents/BUC_v3/popphyl_contam0.2/utr/${i}/${i}.utr.fas /home/croux/Documents/BUC_v3/popphyl_contam0.2/cds/${i}/${i}.cds.alr.0.2.fas
+done
+
+
+
