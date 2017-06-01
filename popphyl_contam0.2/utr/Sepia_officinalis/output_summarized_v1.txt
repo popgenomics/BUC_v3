@@ -1,0 +1,2 @@
+dataset	nLoci	length_cds_avg	length_cds_std	GCcds_avg	GCcds_std	GC12_avg	GC12_std	GC3_avg	GC3_std	length_utr_avg	length_utr_std	GCutr_avg	GCutr_std	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP	r_GC3_GCutr	r_GC12_GCutr
+Sepia_officinalis	2629	853.20616	741.19326	0.41768	0.04143	0.4325	0.04888	0.38803	0.07205	289.3663	222.29085	0.35412	0.06132	-0.09686	-0.09306	-0.08989	-0.10676	0.228	0.16743

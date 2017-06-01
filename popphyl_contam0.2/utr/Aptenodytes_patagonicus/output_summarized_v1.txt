@@ -1,0 +1,2 @@
+dataset	nLoci	length_cds_avg	length_cds_std	GCcds_avg	GCcds_std	GC12_avg	GC12_std	GC3_avg	GC3_std	length_utr_avg	length_utr_std	GCutr_avg	GCutr_std	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP	r_GC3_GCutr	r_GC12_GCutr
+Aptenodytes_patagonicus	2649	646.83465	628.00568	0.456	0.05726	0.45068	0.05061	0.46663	0.12148	735.62703	746.5964	0.3977	0.07103	-0.06439	-0.05271	-0.0802	-0.13798	0.54724	0.24094

@@ -1,0 +1,2 @@
+dataset	nLoci	length_cds_avg	length_cds_std	GCcds_avg	GCcds_std	GC12_avg	GC12_std	GC3_avg	GC3_std	length_utr_avg	length_utr_std	GCutr_avg	GCutr_std	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP	r_GC3_GCutr	r_GC12_GCutr
+Eunicella_cavolinii	1163	498.36371	355.58504	0.41366	0.0394	0.4337	0.04574	0.37359	0.06982	197.99226	120.21768	0.35076	0.05675	-0.15169	-0.10794	-0.14073	-0.11098	0.09907	0.06816

@@ -1,0 +1,2 @@
+dataset	nLoci	length_cds_avg	length_cds_std	GCcds_avg	GCcds_std	GC12_avg	GC12_std	GC3_avg	GC3_std	length_utr_avg	length_utr_std	GCutr_avg	GCutr_std	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP	r_GC3_GCutr	r_GC12_GCutr
+Allolobophora_chlorotica_L2	5279	416.4391	267.79373	0.48598	0.04827	0.46708	0.05095	0.52377	0.10081	260.60371	190.82022	0.3951	0.05678	-0.1204	-0.13312	-0.13386	-0.19394	0.2743	0.12609

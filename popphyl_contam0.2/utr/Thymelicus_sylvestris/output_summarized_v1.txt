@@ -1,0 +1,2 @@
+dataset	nLoci	length_cds_avg	length_cds_std	GCcds_avg	GCcds_std	GC12_avg	GC12_std	GC3_avg	GC3_std	length_utr_avg	length_utr_std	GCutr_avg	GCutr_std	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP	r_GC3_GCutr	r_GC12_GCutr
+Thymelicus_sylvestris	7983	869.95866	738.43736	0.46901	0.08179	0.44766	0.05832	0.51171	0.16356	418.90267	407.87005	0.35064	0.06931	-0.09288	-0.10499	-0.06399	-0.17494	0.26167	0.19966

@@ -1,0 +1,2 @@
+dataset	nLoci	length_cds_avg	length_cds_std	GCcds_avg	GCcds_std	GC12_avg	GC12_std	GC3_avg	GC3_std	length_utr_avg	length_utr_std	GCutr_avg	GCutr_std	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP	r_GC3_GCutr	r_GC12_GCutr
+Abatus_cordatus	2055	617.42044	511.79017	0.50475	0.05014	0.4677	0.04797	0.57884	0.11257	737.50949	575.58564	0.35975	0.05174	-0.17663	-0.09587	-0.27713	-0.23155	0.03775	0.10744

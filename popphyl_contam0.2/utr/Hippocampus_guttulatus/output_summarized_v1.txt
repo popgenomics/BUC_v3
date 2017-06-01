@@ -1,0 +1,2 @@
+dataset	nLoci	length_cds_avg	length_cds_std	GCcds_avg	GCcds_std	GC12_avg	GC12_std	GC3_avg	GC3_std	length_utr_avg	length_utr_std	GCutr_avg	GCutr_std	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP	r_GC3_GCutr	r_GC12_GCutr
+Hippocampus_guttulatus	11467	984.14049	953.69493	0.53968	0.05335	0.48449	0.04832	0.65005	0.11443	662.46342	597.94237	0.44303	0.06552	-0.09881	-0.11823	-0.05465	-0.08685	0.28415	0.15436

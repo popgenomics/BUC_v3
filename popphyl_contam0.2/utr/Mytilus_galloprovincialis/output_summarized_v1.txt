@@ -1,0 +1,2 @@
+dataset	nLoci	length_cds_avg	length_cds_std	GCcds_avg	GCcds_std	GC12_avg	GC12_std	GC3_avg	GC3_std	length_utr_avg	length_utr_std	GCutr_avg	GCutr_std	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP	r_GC3_GCutr	r_GC12_GCutr
+Mytilus_galloprovincialis	4539	614.74884	529.55676	0.38993	0.03633	0.42495	0.05087	0.31989	0.05622	280.0683	234.43466	0.31678	0.04397	-0.13358	-0.16512	-0.09604	-0.21023	0.07877	0.06375

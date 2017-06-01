@@ -1,0 +1,2 @@
+dataset	nLoci	length_cds_avg	length_cds_std	GCcds_avg	GCcds_std	GC12_avg	GC12_std	GC3_avg	GC3_std	length_utr_avg	length_utr_std	GCutr_avg	GCutr_std	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP	r_GC3_GCutr	r_GC12_GCutr
+Caenorhabditis_brenneri	930	615.27742	440.17674	0.45052	0.04285	0.45247	0.04681	0.44662	0.10397	242.73226	147.99157	0.33922	0.04706	-0.26488	-0.17787	-0.43966	-0.39846	0.20712	0.06948

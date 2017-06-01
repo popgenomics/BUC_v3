@@ -1,0 +1,2 @@
+dataset	nLoci	length_cds_avg	length_cds_std	GCcds_avg	GCcds_std	GC12_avg	GC12_std	GC3_avg	GC3_std	length_utr_avg	length_utr_std	GCutr_avg	GCutr_std	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP	r_GC3_GCutr	r_GC12_GCutr
+Messor_capitatus	2590	1068.60463	858.35557	0.45005	0.06526	0.43957	0.05252	0.47102	0.12388	703.7278	727.60617	0.37496	0.07748	-0.07693	-0.1141	-0.02116	-0.10053	0.37883	0.32424

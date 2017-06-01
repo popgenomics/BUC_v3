@@ -1,0 +1,2 @@
+dataset	nLoci	length_cds_avg	length_cds_std	GCcds_avg	GCcds_std	GC12_avg	GC12_std	GC3_avg	GC3_std	length_utr_avg	length_utr_std	GCutr_avg	GCutr_std	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP	r_GC3_GCutr	r_GC12_GCutr
+Lepus_granatensis	2230	623.12825	459.85397	0.4912	0.07645	0.4651	0.0583	0.54342	0.16095	479.87713	432.18426	0.43337	0.10471	-0.02173	-0.05824	-0.06655	-0.12799	0.67097	0.37592

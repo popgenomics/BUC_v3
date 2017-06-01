@@ -1,0 +1,2 @@
+dataset	nLoci	length_cds_avg	length_cds_std	GCcds_avg	GCcds_std	GC12_avg	GC12_std	GC3_avg	GC3_std	length_utr_avg	length_utr_std	GCutr_avg	GCutr_std	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP	r_GC3_GCutr	r_GC12_GCutr
+Ophioderma_longicauda_L1	5066	546.85452	556.75303	0.43832	0.04327	0.44277	0.05356	0.42941	0.06973	399.14686	351.51117	0.37232	0.04516	-0.07722	-0.14298	-0.06715	-0.18764	0.13501	0.08349

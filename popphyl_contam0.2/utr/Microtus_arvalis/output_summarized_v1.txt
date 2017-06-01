@@ -1,0 +1,2 @@
+dataset	nLoci	length_cds_avg	length_cds_std	GCcds_avg	GCcds_std	GC12_avg	GC12_std	GC3_avg	GC3_std	length_utr_avg	length_utr_std	GCutr_avg	GCutr_std	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP	r_GC3_GCutr	r_GC12_GCutr
+Microtus_arvalis	5718	980.92288	920.57971	0.5085	0.06253	0.48131	0.05543	0.56288	0.1186	729.11263	704.72233	0.47197	0.0818	-0.04028	-0.07515	-0.04411	-0.08624	0.5788	0.36724
