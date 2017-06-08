@@ -1,5 +1,5 @@
 # Columns of utr/*/output_summarized_v1.txt files
-**contigs**** : contig names  
+**contigs** : contig names  
 **coverage** : number of counted reads  
 **Nc** : effective number of codons computed from the CDS file. Computed by ENCprime.c  
 **Ncp** : effective number of codons computed from the CDS file, corrected by the %GC_UTR measured from UTR file. Computed by ENCprime.c.  
