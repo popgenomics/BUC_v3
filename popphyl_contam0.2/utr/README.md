@@ -86,84 +86,84 @@
 **GCcorrected_expression** : number of counted reads corrected by %GC_UTR.   
 
 # Columns of the utr/final_output.txt file 
-**dataset** : species name
-**nLoci** : number of treated loci
-**length_cds_avg** : average CDS length
-**length_cds_std** : variation in CDS length
-**GCcds_avg** : average %GC_CDS
-**GCcds_std** : variation in %GC_CDS
-**GC12_avg** : average %GC_CDS in first + second codon positions
-**GC12_std** : variation in %GC_CDS in first + second codon positions
-**GC3_avg** : average %GC_CDS in third odon positions
-**GC3_std** : variation in %GC_CDS in third codon positions
-**length_utr_avg** : average UTR length
-**length_utr_std** : variation in UTR length
-**GCutr_avg** : average %GC_UTR
-**GCutr_std** : variation in %GC_UTR
-**r_expression_ENc** : pearson's R "corrected_expression, ENc"
-**r_expression_ENcP** : pearson's R "corrected_expression, ENc prime"
-**r_nReads_ENc** : pearson's R "number of counted reads, ENc"
-**r_nReads_ENcP** : pearson's R "number of counted reads, ENc prime"
-**r_GC3_GCutr** : pearson's R "GC3, GCutr"
-**r_GC12_GCutr** : pearson's R "GC12, GCutr"
-**focal** :
-**indiv** :
-**Fit** :
-**FitWC** :
-**piS** :
-**piN** :
-**piNpiS** :
-**Fit_d** :
-**Fit_u** :
-**FitWC_d** :
-**FitWC_u** :
-**piS_d** :
-**piS_u** :
-**piN_d** :
-**piN_u** :
-**piNpiS_d** :
-**piNpiS_u** :
-**Dtaj_ns** :
-**Dtaj_s** :
-**spid** :
-**spTrue** :
-**longevity** :
-**gestation** :
-**size** :
-**bodymass** :
-**juvenileSize** :
-**juvenileMass** :
-**ratioJuv** :
-**ratioJuvMass** :
-**ratioJuvSize** :
-**ratioJuvTime** :
-**ovosize** :
-**spermsize** :
-**dispersal** :
-**larvalDispersal** :
-**sociality** :
-**density** :
-**diet** :
-**sex** :
-**speed** :
-**kmh** :
-**fecundation** :
-**parentalCare** :
-**fecundity** :
-**fecundityPerDay** :
-**biogeography** :
-**Environment** :
-**invasive** :
-**genome.size** :
-**vertebrate** :
-**genus** :
-**subfamily** :
-**family** :
-**superfamily** :
-**suborder** :
-**order** :
-**class** :
-**superclass** :
-**phylum** :
-**custom** :
-**juvSize** :
+**dataset** : species name  
+**nLoci** : number of treated loci  
+**length_cds_avg** : average CDS length  
+**length_cds_std** : variation in CDS length  
+**GCcds_avg** : average %GC_CDS  
+**GCcds_std** : variation in %GC_CDS  
+**GC12_avg** : average %GC_CDS in first + second codon positions  
+**GC12_std** : variation in %GC_CDS in first + second codon positions  
+**GC3_avg** : average %GC_CDS in third odon positions  
+**GC3_std** : variation in %GC_CDS in third codon positions  
+**length_utr_avg** : average UTR length  
+**length_utr_std** : variation in UTR length  
+**GCutr_avg** : average %GC_UTR  
+**GCutr_std** : variation in %GC_UTR  
+**r_expression_ENc** : pearson's R "corrected_expression, ENc"  
+**r_expression_ENcP** : pearson's R "corrected_expression, ENc prime"  
+**r_nReads_ENc** : pearson's R "number of counted reads, ENc"  
+**r_nReads_ENcP** : pearson's R "number of counted reads, ENc prime"  
+**r_GC3_GCutr** : pearson's R "GC3, GCutr"  
+**r_GC12_GCutr** : pearson's R "GC12, GCutr"  
+**focal** :  
+**indiv** :  
+**Fit** :  
+**FitWC** :  
+**piS** :  
+**piN** :  
+**piNpiS** :  
+**Fit_d** :  
+**Fit_u** :  
+**FitWC_d** :  
+**FitWC_u** :  
+**piS_d** :  
+**piS_u** :  
+**piN_d** :  
+**piN_u** :  
+**piNpiS_d** :  
+**piNpiS_u** :  
+**Dtaj_ns** :  
+**Dtaj_s** :  
+**spid** :  
+**spTrue** :  
+**longevity** :  
+**gestation** :  
+**size** :  
+**bodymass** :  
+**juvenileSize** :  
+**juvenileMass** :  
+**ratioJuv** :  
+**ratioJuvMass** :  
+**ratioJuvSize** :  
+**ratioJuvTime** :  
+**ovosize** :  
+**spermsize** :  
+**dispersal** :  
+**larvalDispersal** :  
+**sociality** :  
+**density** :  
+**diet** :  
+**sex** :  
+**speed** :  
+**kmh** :  
+**fecundation** :  
+**parentalCare** :  
+**fecundity** :  
+**fecundityPerDay** :  
+**biogeography** :  
+**Environment** :  
+**invasive** :  
+**genome.size** :  
+**vertebrate** :  
+**genus** :  
+**subfamily** :  
+**family** :  
+**superfamily** :  
+**suborder** :  
+**order** :  
+**class** :  
+**superclass** :  
+**phylum** :  
+**custom** :  
+**juvSize** :  
